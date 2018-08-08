@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mystlforlogin.css">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta charset="UTF-8">
+</head>
+
+<body>
+
+<div class="container">
+<div id="backg"></div>
+<header>
+   <h1>IoT talker</h1>
+</header>
+  
+<nav>
+  <ul>
+    <li class="hbar1"><a href="index.html">Home</a></li>
+  	<li class="hbar1"><a href = "logout.php">Sign out</a></li>
+  </ul>
+</nav>
+
+<div id="login">  
+        <h1>Welcome to the IoT talker Project!!</h1> 
+		<h2>Please input your choice</h2>
+        <form name="myForm" action="choice.php" method="post">  
+			<input type="radio" name="choice" value="sent">Sent Message<br>
+			<input type="radio" name="choice" value="recieve">Recieve Message<br>
+            <button class="but" type="submit">Submit</button> 
+        </form>  
+    </div>  
+
+<footer>Copyright &copy;</footer>
+
+</div>
+</body>
+</html>
